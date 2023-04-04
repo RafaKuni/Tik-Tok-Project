@@ -1,0 +1,44 @@
+[debug] [2023-04-03T15:23:07.818Z] ----------------------------------------------------------------------
+[debug] [2023-04-03T15:23:07.826Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rafak\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-04-03T15:23:07.827Z] CLI Version:   11.25.2
+[debug] [2023-04-03T15:23:07.827Z] Platform:      win32
+[debug] [2023-04-03T15:23:07.828Z] Node Version:  v19.7.0
+[debug] [2023-04-03T15:23:07.828Z] Time:          Mon Apr 03 2023 12:23:07 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-04-03T15:23:07.828Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as kuniyoshirafael34@gmail.com
+[debug] [2023-04-03T15:23:18.447Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\rafak\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:568:17)
+    at process.processTimers (node:internal/timers:511:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-04-03T15:24:13.580Z] ----------------------------------------------------------------------
+[debug] [2023-04-03T15:24:13.583Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rafak\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-04-03T15:24:13.584Z] CLI Version:   11.25.2
+[debug] [2023-04-03T15:24:13.584Z] Platform:      win32
+[debug] [2023-04-03T15:24:13.584Z] Node Version:  v19.7.0
+[debug] [2023-04-03T15:24:13.584Z] Time:          Mon Apr 03 2023 12:24:13 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-04-03T15:24:13.584Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-03T15:24:13.688Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-03T15:24:13.689Z] > authorizing via signed-in user (kuniyoshirafael34@gmail.com)
+[debug] [2023-04-03T15:24:13.689Z] [iam] checking project tiktok---rk for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-04-03T15:24:13.692Z] > refreshing access token with scopes: []
+[debug] [2023-04-03T15:24:13.694Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-03T15:24:13.695Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-03T15:24:34.829Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-04-03T15:24:34.831Z] > refreshing access token with scopes: []
+[debug] [2023-04-03T15:24:34.832Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-03T15:24:34.832Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-03T15:24:55.901Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-04-03T15:25:00.921Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\rafak\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:568:17)
+    at process.processTimers (node:internal/timers:511:7)
+[error] 
+[error] Error: An unexpected error has occurred.
