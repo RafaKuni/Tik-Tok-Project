@@ -16,7 +16,7 @@ Esse projeto foi construido no workshop da EBAC - *Jornada Dev Full Stack*, na q
 # **Links Utilizados**
 
 <ul>
-  <li><a href="https://tiktok---jornada-1be60.firebaseapp.com/">Projeto Online</a></li>
+  <li><a href="https://tiktok---rk.web.app/">Projeto Online</a></li>
   <li><a href="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/vinil.png">Link Vinil</a></li>
   <li><a href="https://www.youtube.com/shorts/26jSFkQbubU">Link Vídeo 1 (Youtube)</a></li>
   <li><a href="https://www.youtube.com/shorts/lzjrXVhGSbo">Link Vídeo 2 (Youtube)</a></li>
